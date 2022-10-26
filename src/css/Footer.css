@@ -6,11 +6,9 @@
   border-top: 1px black solid;
   padding: 0.5em;
   padding-top: 1em;
-  animation-duration: 1s;
+  /* animation-duration: 1s; */
   /* animation-name: slidein; */
   text-align: center;
-  /* justify-self: flex-end; */
-  /* align-self: flex-start; */
 }
 
 #footer a {

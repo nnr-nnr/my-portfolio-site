@@ -10,7 +10,7 @@ export default function Projects() {
     <div className="body">
       <Bars />
 
-      <main className="projectsMain">
+      <div className="main projectsMain">
         <Navbar currTab={"projects"} />
         <p className="maintext">
           Click on the projects below for more information.
@@ -21,7 +21,7 @@ export default function Projects() {
           ))}
         </div>
         <Footer />
-      </main>
+      </div>
       <div id="modal-container"> </div>
     </div>
   );

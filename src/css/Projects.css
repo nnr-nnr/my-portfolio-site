@@ -7,7 +7,7 @@
   padding-top: 1em;
   padding-bottom: 1em;
 
-  animation-duration: 1s;
+  /* animation-duration: 1s; */
   /* animation-name: slidein; */
 }
 
@@ -112,7 +112,7 @@ a.project {
 }
 
 @media (max-width: 700px) {
-  main {
+  .main {
     width: 100%;
 
     display: flex;

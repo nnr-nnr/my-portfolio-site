@@ -5,12 +5,12 @@ import { recentExperience, skillsData } from "../data/experience";
 import "../css/About.css";
 import Bars from "../components/Bars";
 
-export default function About({}) {
+export default function About() {
   const experiences = recentExperience;
   return (
     <div className="body">
       <Bars />
-      <main className="aboutMain">
+      <div className="aboutMain main">
         <Navbar currTab={"about"} />
 
         <div className="content">
@@ -27,7 +27,7 @@ export default function About({}) {
               </div>
               <img
                 className="portrait"
-                src="/portrait.jpeg"
+                src={process.env.PUBLIC_URL + "/portrait.jpeg"}
                 alt="portrait"
               ></img>
             </div>
@@ -59,7 +59,7 @@ export default function About({}) {
           </div>
           <Footer />
         </div>
-      </main>
+      </div>
     </div>
   );
 }

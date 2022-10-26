@@ -17,7 +17,7 @@ export default function Random() {
     <div className="body">
       <Bars />
 
-      <main className="randomMain">
+      <div className="main randomMain">
         <Navbar currTab={"random"} />
 
         <div className="content">
@@ -67,7 +67,7 @@ export default function Random() {
 
           <Footer />
         </div>
-      </main>
+      </div>
     </div>
   );
 }
