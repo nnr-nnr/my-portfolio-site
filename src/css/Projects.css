@@ -1,0 +1,140 @@
+/* *************** */
+/* PROJECTS        */
+/* *************** */
+
+#projectContainer {
+  width: 90%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  animation-duration: 1s;
+  /* animation-name: slidein; */
+}
+
+/* @keyframes slidein {
+  from {
+    margin-bottom: -50%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
+} */
+
+.projectsMain > .maintext {
+  padding-top: 2em;
+}
+
+.project {
+  padding: 2vmin;
+  background: rgba(0, 0, 0, 0.829);
+  margin: 1em;
+  transition: box-shadow 0.3s linear;
+}
+
+.project h1 {
+  color: white;
+  font-size: larger;
+}
+.project h3 {
+  color: rgb(179, 243, 105);
+  font-weight: 200;
+  font-size: small;
+}
+
+a.project {
+  text-decoration: none !important;
+}
+.project .maintext {
+  /* color: white; */
+  color: rgb(229, 74, 235);
+  font-size: small;
+}
+
+.project:hover {
+  box-shadow: 4px 4px 0px 4px rgb(179, 243, 105),
+    -4px -4px 0px 4px rgb(229, 74, 235);
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+/* INTERNET SQUARES CODE */
+
+#projectContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+#projectContainer::before {
+  content: "";
+  width: 0;
+  padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+#projectContainer > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+/* *************** */
+/* MODALS        */
+/* *************** */
+
+.modal-bg {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(50, 50, 50, 0.8);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-bg button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: rgb(179, 243, 105);
+  outline: none;
+  border: none;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 10%;
+}
+
+.modal-bg iframe {
+  width: 85vw;
+  height: 85vh;
+}
+
+@media (max-width: 700px) {
+  main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0.5em;
+    margin: 1em;
+  }
+  #abt1 {
+    flex-direction: column;
+  }
+
+  #tabs a {
+    font-size: medium;
+  }
+  h1 {
+    font-size: 150%;
+  }
+
+  #resume {
+    flex-direction: column;
+  }
+}

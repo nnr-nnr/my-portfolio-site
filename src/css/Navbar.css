@@ -1,0 +1,78 @@
+/* *************** */
+/*     MAIN        */
+/* *************** */
+
+main {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 0.5em;
+  margin: 1em;
+  margin-right: 3em;
+  margin-left: 7.5em;
+}
+
+main > * {
+  /* border: 1px rgb(255, 0, 179) solid;  */
+  /* justify-self: flex-start; */
+}
+
+/* *************** */
+/* NAVIAGATION BAR */
+/* *************** */
+
+#tabs {
+  /* width: 25%;
+    min-width: 500px; */
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border-bottom: solid 1px black;
+}
+
+.current-tab {
+  color: rgb(229, 74, 235);
+}
+
+/* .current-tab {
+    display: flex;
+    pointer-events: none;
+    justify-content: center;
+  }
+  .current-tab img {
+    width: 160px;
+    position: absolute;
+    align-self: center;
+  } */
+
+#tabs a {
+  font-family: "Space Mono", monospace;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: none;
+
+  padding: 0.5em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+#tabs > a:hover {
+  font-weight: 600;
+  /* color: rgb(229, 74, 235); */
+}
+
+/* *************** */
+/* FOR TESTING *** */
+/* *************** */
+
+main {
+  /* border: 1pt green solid; */
+}
+
+main > * {
+  /* border: 1pt blue solid; */
+}
