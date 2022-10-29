@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../css/Projects.css";
 import Bars from "../components/Bars";
-import { projectData } from "../data/experience";
+import { projectData } from "../data/info";
 
 export default function Projects() {
   return (

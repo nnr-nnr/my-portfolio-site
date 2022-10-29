@@ -1,12 +1,13 @@
 import About from "./routes/About";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Projects from "./routes/Projects";
 import "./index.css";
 import Random from "./routes/Random";
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<About />}></Route>
         <Route path="/about" element={<About />}></Route>
@@ -14,7 +15,8 @@ function App() {
         <Route path="/random" element={<Random />}></Route>
         <Route path="*" element={<About />}></Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
+    // </BrowserRouter>
   );
 }
 

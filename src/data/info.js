@@ -7,8 +7,12 @@ export const recentExperience = [
     },
     startDate: "Jun 21",
     endDate: "Present",
-    description: "stuff",
-    tools: ["React", "AWS", "PostgreSQL", "Docker"],
+    description: [
+      "Design and develop The Unfounder Sorter, a survey platform for connecting 20k+ users to crowd-sourced local gems.",
+      "Create recommendation algorithm and implement sharing capabilities to optimize user satisfaction and stickiness.",
+      "Build and maintain REST APIs; manage backend AWS processes with tools like PostgreSQL.",
+    ],
+    tools: ["React", "JavaScript", "TypeScript", "AWS", "PostgreSQL", "Docker"],
   },
   {
     role: "CS Peer Mentor",
@@ -18,8 +22,10 @@ export const recentExperience = [
     },
     startDate: "Sep 21",
     endDate: "Mar 22",
-    description:
-      "Taught data collection, cleaning, visualization, modeling, EDA, and statistical & machine learning techniques in Intro. to the Data Science Pipeline (COMP_SCI 396 / 60+ students). Taught data set modeling and organization in Data Management and Information Processing (COMP_SCI 217 / 60+ students).",
+    description: [
+      "Intro. to the Data Science Pipeline (COMP_SCI 396): Taught data collection, cleaning, visualization, modeling, EDA, and statistical & machine learning techniques to 60+ students.",
+      "Data Management and Information Processing (COMP_SCI 217): Taught complex data set modeling and organization to 60+ students.",
+    ],
     tools: [
       "SQL",
       "MongoDB",
@@ -40,9 +46,13 @@ export const recentExperience = [
     },
     startDate: "Apr 21",
     endDate: "Jan 22",
-    description:
-      "Led collection and analysis of learning and pedagogy data from 50+ students and 40+ tutors. Used data findings to improve program structure, materials, retention, marketing, and participant experience.",
-    tools: ["Excel", "pandas"],
+    description: [
+      "Led program direction and analytics at LumiNUs Tutors, a volunteer tutoring organization that provides 1:1 mentorship to students of underserved Chicago Public Schools.",
+      "Conducted collection and analysis of learning and pedagogy data from 50+ students and 40+ tutors, including identification of program KPIs, survey development, statistical testing, and data visualizations.",
+      "Used data findings to improve program structure, materials, retention, marketing, and participant experience.",
+      "Remotely tutored a CPS high schooler on the SAT, building their core competencies and honing their test-taking strategies.",
+    ],
+    tools: ["Excel", "Python", "pandas"],
   },
 
   {
@@ -53,8 +63,10 @@ export const recentExperience = [
     },
     startDate: "Jun 21",
     endDate: "Aug 21",
-    description:
-      "Developed plug-in for remote node network for comprehensive atmospheric tracking, modeling, and prediction.",
+    description: [
+      "Developed plug-in for remote node network for comprehensive atmospheric tracking, modeling, and prediction in collaboration with climate scientists and other engineers.",
+      "Applied computer vision techniques to RADAR and LiDAR backscatter data plots to generate novel atmospheric data.",
+    ],
     tools: ["Python", "OpenCV"],
   },
 ];

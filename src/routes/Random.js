@@ -22,7 +22,7 @@ export default function Random() {
 
         <div className="content">
           <div className="holder">
-            <h1>coming soon-ish...or later</h1>
+            <h1>coming soon-ish... or later</h1>
             <p className="previewtext">* book reviews + art + more *</p>
           </div>
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { recentExperience, skillsData } from "../data/experience";
+import { recentExperience, skillsData } from "../data/info";
 import "../css/About.css";
 import Bars from "../components/Bars";
 
@@ -35,7 +35,7 @@ export default function About() {
             <div className="resume">
               <div className="skills">
                 <h2>
-                  ‎‎‎‎‎‎‎‎<span>ㅤ./Skills </span>
+                  ‎‎‎‎‎‎‎‎<span>./Skills </span>
                 </h2>
 
                 <ul className="bodytext">
@@ -47,7 +47,7 @@ export default function About() {
 
               <div className="recent-exp">
                 <h2>
-                  ‎‎‎‎‎‎‎‎<span>ㅤ./Recent Experience </span>
+                  ‎‎‎‎‎‎‎‎<span>./Recent Experience </span>
                 </h2>
                 <ul className="bodytext">
                   {experiences.map((exp, i) => (
@@ -88,7 +88,12 @@ const Experience = ({ e }) => {
         {e.tools.map((t, i) => t + (i < toolsLen - 1 ? " • " : ""))}
       </div>
 
-      <div className="description"> {e.description}</div>
+      <ul className="description">
+        {" "}
+        {e.description.map((bullet, i) => (
+          <li key={i}>{bullet}</li>
+        ))}
+      </ul>
     </li>
   );
 };

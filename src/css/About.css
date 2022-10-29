@@ -43,7 +43,7 @@
   width: 65%;
 }
 
-.sublist > li {
+ul > li {
   list-style-type: "-  ";
 }
 
@@ -147,6 +147,10 @@ li.expanded {
 li.expanded::marker {
   font-size: 1.3em;
   font-weight: 400;
+}
+
+.description > li {
+  margin-bottom: 10px;
 }
 
 .bodytext > li.unexpanded:hover::marker {

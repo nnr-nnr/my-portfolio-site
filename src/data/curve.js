@@ -9,9 +9,7 @@ export default function hist() {
       allCurves[i * resolution + j] = vals[j];
     }
   }
-  return allCurves.map(
-    (v) => (50 * (v - Math.min(...allCurves))) / Math.max(...allCurves)
-  );
+  return allCurves.map((v) => (50 * (v + 0.01)) / Math.max(...allCurves));
 }
 
 function curve_smart(resolution) {
