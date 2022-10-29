@@ -24,7 +24,7 @@ export default function Footer() {
       <a
         className="footerLink"
         rel="noreferrer"
-        href="https://github.com/nnr-nnr/my_website"
+        href="https://github.com/nnr-nnr/my-portfolio-site"
         target="_blank"
         title="Code for this website."
       >
