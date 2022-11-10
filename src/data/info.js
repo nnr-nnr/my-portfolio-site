@@ -81,8 +81,14 @@ export const skillsData = [
   {
     category: "Backend",
     skills: [
-      { level: "proficient in ", examples: "Python (e.g., Flask), SQL, Java" },
-      { level: "working proficiency in ", examples: "NoSQL, C, C++" },
+      {
+        level: "proficient in ",
+        examples: "Python (eg, Flask), Node.js, SQL",
+      },
+      {
+        level: "working proficiency in ",
+        examples: "NoSQL (eg, MongoDB), Java, C, C++",
+      },
     ],
   },
 
@@ -111,8 +117,10 @@ export const skillsData = [
     ],
   },
   {
-    category: "Other",
-    skills: [{ level: "experience with ", examples: "Git, Unix, AWS, GCP" }],
+    category: "DevOps & Other",
+    skills: [
+      { level: "experience with ", examples: "Git, Docker, AWS, GCP, Unix" },
+    ],
   },
 ];
 
@@ -157,11 +165,20 @@ export const projectData = [
   },
   {
     title:
-      "Analysis of Regional Linguistics and Sentiment Expression: Yelp Review Data Analysis",
+      "Analysis of Regional Linguistics, Sentiment Expression, and Economics: Yelp Review Data Analysis",
     description:
       "How do Yelp reviewers' language and sentiment expression vary by their region? By the type of business they review? By the socioeconomics of the business' neighborhood? This project compares regional linguistics and sentiment expression using ML techniques on COVID-era, publicly available U.S. Yelp review data. (NOTE: updated report is forthcoming).",
-    tags: ["python", "OpenRefine", "NLP", "scikit-learn", "cs396", "summer21"],
-    url: "",
+    tags: [
+      "python",
+      "OpenRefine",
+      "NLP",
+      "scikit-learn",
+      "cs396",
+      "extendedProjectSnippet",
+      "summer21",
+      "ongoing",
+    ],
+    url: "https://nnr-nnr.github.io/PA-yelp-adi-map/",
     gDriveUrl: false,
   },
   {
