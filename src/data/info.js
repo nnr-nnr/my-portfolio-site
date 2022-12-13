@@ -5,7 +5,7 @@ export const recentExperience = [
       name: "Unfound",
       link: "https://unfound.app/",
     },
-    startDate: "Jun 21",
+    startDate: "Jun 22",
     endDate: "Present",
     description: [
       "Design and develop The Unfounder Sorter, a survey platform for connecting 20k+ users to crowd-sourced local gems.",
@@ -68,6 +68,23 @@ export const recentExperience = [
       "Applied computer vision techniques to RADAR and LiDAR backscatter data plots to generate novel atmospheric data.",
     ],
     tools: ["Python", "OpenCV"],
+  },
+
+  {
+    role: "Student Researcher",
+    institution: {
+      name: "LCAN Research Group",
+      link: "https://lcanresearch.northwestern.edu/our-projects/",
+    },
+    startDate: "Jan 19",
+    endDate: "Mar 21",
+    description: [
+      "Designed survey deployed to approximately 3,000 individuals to illuminate effects of COVID-19 pandemic on social isolation, technology use, healthcare, and health/wellness of older adult and neurodegenerative populations.",
+      "Tripled enrollment rate, streamlined recruitment methods, and liaised with participants of NIH-funded study to improve the design of a novel monitoring device (Rogers Research Group) and corresponding iPhone application (Figma) for those with Parkinson’s disease. Collected data from 15 study participants and analyzed data collected from this investigational system for device fidelity, user tolerance and acceptability, and digital biomarkers against gold-standard systems.",
+      "Co-authored paper accepted to the Conference on Motor Speech 2020 entitled “Evaluating a wearable mechano-acoustic sensor and iPhone application for speech data.”",
+      "Analyzed the speech of individuals with neurodegeneration at five levels of syntactic complexity with SALT (Systematic Analysis of Language Transcripts) and performed lexical error coding analysis with CLAN (Computerized Language ANalysis).",
+    ],
+    tools: ["Figma"],
   },
 ];
 
