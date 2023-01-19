@@ -100,11 +100,12 @@ export const skillsData = [
     skills: [
       {
         level: "proficient in ",
-        examples: "Python (eg, Flask), Node.js, SQL",
+        examples:
+          "Python (eg, Flask), Node.js, Express.js, REST APIs, SQL, NoSQL (eg, MongoDB)",
       },
       {
         level: "working proficiency in ",
-        examples: "NoSQL (eg, MongoDB), Java, C, C++",
+        examples: "Java, C, C++",
       },
     ],
   },
@@ -144,8 +145,20 @@ export const skillsData = [
 export const projectData = [
   {
     title: "Fjordle",
-    description: "A Wordle x GeoGuessr mash-up.",
-    tags: ["React", "GCP", "googleMaps", "game", "personalProject", "fall22"],
+    description:
+      "A responsive web application mashing up Wordle and GeoGuessr.",
+    tags: [
+      "React",
+      "GCP",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "RESTful",
+      "googleMaps",
+      "game",
+      "personalProject",
+      "fall22",
+    ],
     url: "https://fjordle.com/",
     gDriveUrl: false,
   },

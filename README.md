@@ -1,5 +1,3 @@
-# My Portfolio Website
+This repo holds the code for my portfolio site, [niva-r.com](https://niva-r.com).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Check it out: [niva-r.com](https://niva-r.com)
+This site was built primarily with React.js and deployed with GitHub pages.
