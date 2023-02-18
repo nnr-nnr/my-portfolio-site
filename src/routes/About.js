@@ -17,7 +17,10 @@ export default function About() {
           <div className="about">
             <div id="abt1">
               <div id="bio">
-                <h1>hello, i'm niva.</h1>
+                <div className="title-holder">
+                  <h1>hello, i'm niva.</h1>
+                  <div className="title-underline"></div>
+                </div>
                 <p className="maintext">
                   I recently graduated from Northwestern University ('22), where
                   I studied Computer Science and Statistics. I'm passionate

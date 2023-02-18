@@ -6,19 +6,7 @@
   width: 90%;
   padding-top: 1em;
   padding-bottom: 1em;
-
-  /* animation-duration: 1s; */
-  /* animation-name: slidein; */
 }
-
-/* @keyframes slidein {
-  from {
-    margin-bottom: -50%;
-  }
-  to {
-    margin-bottom: 0%;
-  }
-} */
 
 .projectsMain > .maintext {
   padding-top: 2em;
@@ -125,6 +113,12 @@ a.project {
   }
   #abt1 {
     flex-direction: column;
+  }
+  .project {
+    padding: 4vmin;
+  }
+  #projectContainer {
+    width: 100%;
   }
 
   #tabs a {

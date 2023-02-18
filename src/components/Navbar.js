@@ -4,7 +4,7 @@ import "../css/Navbar.css";
 
 export default function Navbar({ currTab = "about" }) {
   const [tab, setTab] = useState(currTab);
-  const tabs = ["about", "projects", "random"];
+  const tabs = ["about", "projects"]; //, "random"];
   return (
     <>
       <nav id="header">

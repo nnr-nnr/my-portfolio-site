@@ -1,5 +1,5 @@
 export default function hist() {
-  const numCurves = Math.floor(Math.random() * 8) + 2;
+  const numCurves = Math.floor(Math.random() * 9) + 2;
 
   const resolution = Math.floor(75 / numCurves);
   let allCurves = Array(resolution * numCurves).fill(null);

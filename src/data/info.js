@@ -6,13 +6,23 @@ export const recentExperience = [
       link: "https://unfound.app/",
     },
     startDate: "Jun 22",
-    endDate: "Present",
+    endDate: "Jan 23",
     description: [
-      "Design and develop The Unfounder Sorter, a survey platform for connecting 20k+ users to crowd-sourced local gems.",
-      "Create recommendation algorithm and implement sharing capabilities to optimize user satisfaction and stickiness.",
-      "Build and maintain REST APIs; manage backend AWS processes with tools like PostgreSQL.",
+      "Designed and developed The Unfounder Sorter, a survey platform for connecting 20k+ users to crowd-sourced local gems.",
+      "Created recommendation algorithm and implemented sharing capabilities to optimize user experience and stickiness.",
+      "Built & maintained REST APIs; managed backend AWS processes with TypeScript, PostgreSQL, Node, and Express.js.",
+      "Worked closely with product manager and users to realize streamlined designs and seamless user interactions",
     ],
-    tools: ["React", "JavaScript", "TypeScript", "AWS", "PostgreSQL", "Docker"],
+    tools: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "TypeScript",
+      "AWS",
+      "PostgreSQL",
+      "Docker",
+    ],
   },
   {
     role: "CS Peer Mentor",
@@ -23,11 +33,11 @@ export const recentExperience = [
     startDate: "Sep 21",
     endDate: "Mar 22",
     description: [
-      "Intro. to the Data Science Pipeline (COMP_SCI 396): Taught data collection, cleaning, visualization, modeling, EDA, and statistical & machine learning techniques to 60+ students.",
-      "Data Management and Information Processing (COMP_SCI 217): Taught complex data set modeling and organization to 60+ students.",
+      "Intro. to the Data Science Pipeline (COMP_SCI 396, 60+ students): Mentored students in data collection, cleaning, visualization, modeling, EDA, and statistical & machine learning techniques during weekly office hours.",
+      "Data Management and Information Processing (COMP_SCI 217, 60+ students): Mentored students in complex data set modeling and organization during weekly office hours.",
     ],
     tools: [
-      "SQL",
+      "MySQL",
       "MongoDB",
       "Python",
       "Jupyter Notebook",
@@ -48,7 +58,7 @@ export const recentExperience = [
     endDate: "Jan 22",
     description: [
       "Led program direction and analytics at LumiNUs Tutors, a volunteer tutoring organization that provides 1:1 mentorship to students of underserved Chicago Public Schools.",
-      "Conducted collection and analysis of learning and pedagogy data from 50+ students and 40+ tutors, including identification of program KPIs, survey development, statistical testing, and data visualizations.",
+      "Conducted collection and analysis of learning and pedagogy data from 50+ students, 40+ tutors, and three data streams, including identification of program KPIs, survey development, statistical testing, and data visualizations.",
       "Used data findings to improve program structure, materials, retention, marketing, and participant experience.",
       "Remotely tutored a CPS high schooler on the SAT, building their core competencies and honing their test-taking strategies.",
     ],
@@ -65,7 +75,7 @@ export const recentExperience = [
     endDate: "Aug 21",
     description: [
       "Developed plug-in for remote node network for comprehensive atmospheric tracking, modeling, and prediction in collaboration with climate scientists and other engineers.",
-      "Applied computer vision techniques to RADAR and LiDAR backscatter data plots to generate novel atmospheric data.",
+      "Applied computer vision techniques to RADAR and LiDAR backscatter data plots to generate novel atmospheric insights.",
     ],
     tools: ["Python", "OpenCV"],
   },
@@ -93,6 +103,10 @@ export const skillsData = [
     category: "Frontend",
     skills: [
       { level: "proficient in ", examples: "React.js, Vanilla.js, HTML, CSS" },
+      {
+        level: "working proficiency in ",
+        examples: "TypeScript",
+      },
     ],
   },
   {
@@ -116,11 +130,11 @@ export const skillsData = [
       {
         level: "proficient in ",
         examples:
-          "Python (pandas, scikit-learn, seaborn, NumPy, Matplotlib), Excel",
+          "Python (pandas, scikit-learn, Seaborn, NumPy, Matplotlib), Excel",
       },
       {
         level: "working proficiency in ",
-        examples: "R, OpenRefine",
+        examples: "R, MATLAB, OpenRefine",
       },
     ],
   },
@@ -137,7 +151,11 @@ export const skillsData = [
   {
     category: "DevOps & Other",
     skills: [
-      { level: "experience with ", examples: "Git, Docker, AWS, GCP, Unix" },
+      {
+        level: "experience with ",
+        examples:
+          "Git, Amazon Web Services, Google Could Platform, Docker, Postman, Heroku, Unix",
+      },
     ],
   },
 ];
@@ -161,6 +179,41 @@ export const projectData = [
     ],
     url: "https://fjordle.com/",
     gDriveUrl: false,
+  },
+  {
+    title:
+      "Analysis of Regional Linguistics, Sentiment Expression, and Economics: Yelp Review Data Analysis",
+    description:
+      "How do Yelp reviewers' language and sentiment expression vary by their region? By the type of business they review? By the socioeconomics of the business' neighborhood? This project compares regional linguistics and sentiment expression using ML techniques on COVID-era, publicly available U.S. Yelp review data. (NOTE: updated report is forthcoming).",
+    tags: [
+      "python",
+      "OpenRefine",
+      "NLP",
+      "scikit-learn",
+      "cs396",
+      "extendedProjectSnippet",
+      "summer21",
+      "fall23",
+      "ongoing",
+    ],
+    url: "https://nnr-nnr.github.io/PA-yelp-adi-map/",
+    gDriveUrl: false,
+  },
+  {
+    title: "Diagnosing Scatter Motion from RADAR and LiDAR Data",
+    description:
+      "Plug-in for the internationally deployed remote sensing Waggle node network that allows for comprehensive atmospheric tracking, modeling, and prediction. Applied cutting-edge computer vision techniques to RADAR and LiDAR backscatter visualizations to generate novel atmospheric data.",
+    tags: [
+      "python",
+      "opticalFlow",
+      "NAISE",
+      "edgeComputing",
+      "SAGEproject",
+      "individualProject",
+      "summer21",
+    ],
+    url: "1tGWCeW-By-Wn5EjQZ3XNEiOEsp27mryk",
+    gDriveUrl: true,
   },
   {
     title: "Differentially Private Image Classification",
@@ -191,40 +244,6 @@ export const projectData = [
       "fall21",
     ],
     url: "1flraF4HcDChIPtc6K4ymAFursWy7MiYf",
-    gDriveUrl: true,
-  },
-  {
-    title:
-      "Analysis of Regional Linguistics, Sentiment Expression, and Economics: Yelp Review Data Analysis",
-    description:
-      "How do Yelp reviewers' language and sentiment expression vary by their region? By the type of business they review? By the socioeconomics of the business' neighborhood? This project compares regional linguistics and sentiment expression using ML techniques on COVID-era, publicly available U.S. Yelp review data. (NOTE: updated report is forthcoming).",
-    tags: [
-      "python",
-      "OpenRefine",
-      "NLP",
-      "scikit-learn",
-      "cs396",
-      "extendedProjectSnippet",
-      "summer21",
-      "ongoing",
-    ],
-    url: "https://nnr-nnr.github.io/PA-yelp-adi-map/",
-    gDriveUrl: false,
-  },
-  {
-    title: "Diagnosing Scatter Motion from RADAR and LiDAR Data",
-    description:
-      "Plug-in for the internationally deployed remote sensing Waggle node network that allows for comprehensive atmospheric tracking, modeling, and prediction. Applied cutting-edge computer vision techniques to RADAR and LiDAR backscatter visualizations to generate novel atmospheric data.",
-    tags: [
-      "python",
-      "opticalFlow",
-      "NAISE",
-      "edgeComputing",
-      "SAGEproject",
-      "individualProject",
-      "summer21",
-    ],
-    url: "1tGWCeW-By-Wn5EjQZ3XNEiOEsp27mryk",
     gDriveUrl: true,
   },
   {

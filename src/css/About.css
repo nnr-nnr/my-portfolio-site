@@ -59,17 +59,42 @@ ul > li {
   border-radius: 50%;
 }
 
-h1 {
+.title-holder {
+  width: fit-content;
+}
+
+.title-underline {
+  height: 4px;
+  position: relative;
+  z-index: 0;
+  top: -6px;
+  background-color: rgb(229, 74, 235);
+
+  animation: slideLeft 2s;
+}
+@keyframes slideLeft {
+  0% {
+    transform: scaleX(0);
+    translate: -50%;
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.title-holder > h1 {
   font-family: "Roboto Mono", monospace;
   font-size: 200%;
   font-weight: 600;
-  text-decoration: underline rgb(229, 74, 235);
+  margin-bottom: 0;
+  z-index: 100;
+  position: relative;
 
+  /* text-decoration: underline rgb(229, 74, 235); */
   /*  for safari */
-  -webkit-text-decoration-line: underline !important;
+  /* -webkit-text-decoration-line: underline !important;
   -webkit-text-decoration-color: rgb(229, 74, 235) !important;
   -webkit-text-decoration-style: solid !important;
-  -webkit-text-decoration-thickness: 2px !important;
+  -webkit-text-decoration-thickness: 2px !important; */
 }
 
 h2 {
@@ -127,6 +152,11 @@ h3 > a:hover {
   text-align: left;
   font-weight: 200;
   font-size: 90%;
+}
+
+/* NEW 02/2023 */
+ul.description {
+  font-weight: 400;
 }
 
 /* ul li .unexpanded::marker {
