@@ -10,7 +10,7 @@ export const recentExperience = [
     description: [
       "Designed and developed The Unfounder Sorter, a survey platform for connecting 20k+ users to crowd-sourced local gems.",
       "Created recommendation algorithm and implemented sharing capabilities to optimize user experience and stickiness.",
-      "Built & maintained REST APIs; managed backend AWS processes with TypeScript, PostgreSQL, Node, and Express.js.",
+      "Built & maintained REST APIs; managed backend AWS processes with TypeScript, PostgreSQL, Node.js, and Express.js.",
       // "Worked with product manager and users to realize streamlined designs and seamless user interactions",
     ],
     tools: [
@@ -102,7 +102,7 @@ export const skillsData = [
   {
     category: "Frontend",
     skills: [
-      { level: "proficient in ", examples: "React.js, Vanilla.js, HTML, CSS" },
+      { level: "proficient in ", examples: "React, JavaScript, HTML, CSS" },
       {
         level: "working proficiency in ",
         examples: "TypeScript",
