@@ -11,7 +11,7 @@ export const recentExperience = [
       "Designed and developed The Unfounder Sorter, a survey platform for connecting 20k+ users to crowd-sourced local gems.",
       "Created recommendation algorithm and implemented sharing capabilities to optimize user experience and stickiness.",
       "Built & maintained REST APIs; managed backend AWS processes with TypeScript, PostgreSQL, Node, and Express.js.",
-      "Worked closely with product manager and users to realize streamlined designs and seamless user interactions",
+      // "Worked with product manager and users to realize streamlined designs and seamless user interactions",
     ],
     tools: [
       "React",
@@ -75,7 +75,7 @@ export const recentExperience = [
     endDate: "Aug 21",
     description: [
       "Developed plug-in for remote node network for comprehensive atmospheric tracking, modeling, and prediction in collaboration with climate scientists and other engineers.",
-      "Applied computer vision techniques to RADAR and LiDAR backscatter data plots to generate novel atmospheric insights.",
+      "Applied sparse and dense computer vision techniques to RADAR and LiDAR backscatter data plots to generate novel atmospheric insights.",
     ],
     tools: ["Python", "OpenCV"],
   },
