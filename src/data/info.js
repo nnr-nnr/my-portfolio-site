@@ -164,9 +164,10 @@ export const projectData = [
   {
     title: "Fjordle",
     description:
-      "A responsive web application mashing up Wordle and GeoGuessr.",
+      "A GeoGuessr-inspired game that presents users with a daily geography challenge in the style of Wordle. Try to guess the Fjordle in five tries or less!",
     tags: [
       "React",
+      "responsiveWebDesign",
       "GCP",
       "NodeJS",
       "ExpressJS",
@@ -174,10 +175,29 @@ export const projectData = [
       "RESTful",
       "googleMaps",
       "game",
+      "Heroku",
       "personalProject",
       "fall22",
     ],
     url: "https://fjordle.com/",
+    gDriveUrl: false,
+  },
+  {
+    title: "Shelter Pop",
+    description:
+      "Generate quirky, interesting images of (shelter) animals in seconds using the power of OpenAI's DALL•E. This project was inspired by rescue facilities' need for more, flattering images of shelter animals to help them get adopted.",
+    tags: [
+      "OpenAI",
+      "MaterialUI",
+      "React",
+      "NodeJS",
+      "ExpressJS",
+      "RESTful",
+      "Heroku",
+      "personalProject",
+      "winter23",
+    ],
+    url: "https://nnr-nnr.github.io/shelter-pop/",
     gDriveUrl: false,
   },
   {

@@ -68,7 +68,7 @@ ul > li {
   position: relative;
   z-index: 0;
   top: -6px;
-  background-color: rgb(229, 74, 235);
+  background-color: rgb(230, 74, 235);
 
   animation: slideLeft 2s;
 }

@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="main projectsMain">
         <Navbar currTab={"projects"} />
         <p className="maintext">
-          Click on the projects below for more information.
+          Click on the projects below for more information or demos.
         </p>
         <div id="projectContainer">
           {projectData.map((p, i) => (
